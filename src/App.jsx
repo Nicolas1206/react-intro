@@ -1,6 +1,6 @@
-import {Button} from './component/Button'
+import {FormTodo} from './component/FormTodo'
 import {Title} from './component/Title'
-import {Todo} from './component/Todo'
+import {TodoList} from './component/TodoList'
 
 
 export const App = () => {
@@ -8,8 +8,8 @@ export const App = () => {
   return (
     <>
      <Title />
-     <Button />
-     <Todo />
+     <FormTodo />
+     <TodoList />
     </>
   );
 }
